@@ -1,0 +1,149 @@
+:root {
+  --bacground: rgb(192, 180, 143);
+  --bg: rgb(151, 140, 108);
+  --cardBg: rgb(194, 178, 128);
+  --btnColor: rgb(88, 68, 7);
+}
+
+.tiles_container {
+  background-color: var(--bg);
+  width: 100%;
+  height: 94.6svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 0px;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.tiles_calulator_section {
+  background-color: var(--cardBg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  gap: 10px;
+}
+.tiles_calulator_input {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.tiles_calulator_input input {
+  width: 15vw;
+  border: none;
+  height: 5vh;
+  border-radius: 4px;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tiles_calulator_input_box_size {
+  display: flex;
+  justify-content: space-between;
+}
+.tiles_calulator_input_box_size input {
+  width: 22.3vw;
+  border: none;
+  height: 5vh;
+  border-radius: 4px;
+  padding-left: 8px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tiles_calulator_input_box_size label {
+  padding: 10px;
+  width: 7vw;
+}
+
+.tiles_calulator_input label {
+  padding: 10px;
+  width: 7vw;
+}
+.tiles_calulator_input select {
+  width: 7vw;
+  height: 5vh;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.calculate_button {
+  padding: 10px 50px;
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--btnColor);
+  border: none;
+  color: rgb(224, 224, 224);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid var(--btnColor);
+}
+.header_tiles_calculator {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.calculation_result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 31vw;
+}
+.calculation_result p {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.calculation_result h2 {
+  background: var(--btnColor);
+  color: white;
+  padding: 10px 3px;
+}
+
+.calulator_button_section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.image_section_visulize {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 2px;
+  cursor: pointer;
+}
+.image_section_visulize img {
+  height: 100%;
+  width: 100%;
+}
+
+.room_container {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+canvas {
+  display: block;
+  width: 100% !important;
+  height: 80% !important;
+  touch-action: none;
+}
+
+.floor_tiles {
+  display: flex;
+  gap: 5px;
+}
+.floor_section {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}

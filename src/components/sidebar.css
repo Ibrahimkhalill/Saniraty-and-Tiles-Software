@@ -1,0 +1,33 @@
+.nav{
+    width: 100vw;
+}
+
+.header{
+    font-size: 1.5vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.company{
+    color: white;
+}
+.pharmacy{
+    font-size: 20px;
+    color:  white;
+    text-decoration: none;
+}
+.main_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-right: 10px;
+}
+.main_div img{
+    width:100px;
+    height: 50px;
+
+}
